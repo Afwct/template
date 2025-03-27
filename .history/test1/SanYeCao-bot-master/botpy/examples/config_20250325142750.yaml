@@ -1,0 +1,6 @@
+#机器人配置
+appid: "102736483"
+secret: "Enter_Your_Bot_Secret_Here"
+
+# 图床配置
+picturesToken: "Your_Token"
