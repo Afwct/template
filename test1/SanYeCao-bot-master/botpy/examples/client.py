@@ -74,7 +74,7 @@ class MyClient(botpy.Client):
                     content=f"内存溢出或文件上传失败，尝试查看图床确认",
                 )
                 return
-            if flag is not 0:
+            if flag != 0:
                 # file_url = githubUpload.getImage(f"{a}.zip")
                 # file_url = githubUpload.getImage(f"00003.jpg")
                 # 上传完毕
